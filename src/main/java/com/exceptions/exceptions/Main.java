@@ -48,7 +48,7 @@ public class Main {
         try {
             option = scanner.nextInt();
         } catch (InputMismatchException e) {
-            scanner.next(); // Limpa o scanner
+            scanner.next(); 
             throw new InvalidOptionException("Opção inválida! Por favor, insira um número inteiro.");
         }
 
